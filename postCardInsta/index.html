@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+
+<body class="container1">
+
+
+    <div class="post-container">
+        <div class="post-header">
+            <div class="left">
+                <div class="circle">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>  
+                </div>
+                <span>user_name</span>
+            </div>
+
+            <div class="right">
+                <button>Follow</button>
+            </div>
+        </div>
+
+        <div class="container2"></div>
+        <div class="post-image">
+            <img src="https://i.pinimg.com/564x/35/77/e2/3577e2b8989355706f35e67863ac584d.jpg" />
+        </div>
+
+        <div class="post-icons">
+            <div id="post-icons-utils">
+                <i id="heart" class="fa fa-heart-o"></i>
+                <i class="fa fa-comment-o"></i>
+                <i class="fa fa-paper-plane-o"></i>
+            </div>
+            <div>
+                <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <div class="post-likes">likes</div>
+        <div class="post-description">description</div>
+    </div>
+    
+</body>
+
+<script>
+    document.getElementById('heart').addEventListener('click', function() {
+        this.classList.toggle('fa-heart')
+        this.classList.t('fa-heart')
+    })
+
+</script>
+
+</html>
